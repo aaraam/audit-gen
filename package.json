@@ -1,0 +1,23 @@
+{
+  "name": "audit-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "solidity",
+    "audit"
+  ],
+  "author": "aaraam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jspdf": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
