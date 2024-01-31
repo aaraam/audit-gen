@@ -1,9 +1,5 @@
-# audit-gen
-
-npm i
-
-pip install solc-select
-git clone https://github.com/crytic/slither.git && cd slither
-python3 setup.py install
-
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.9
 pip install mythril
