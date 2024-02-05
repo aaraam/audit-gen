@@ -1,6 +1,4 @@
-// Sources flattened with hardhat v2.15.0 https://hardhat.org
 
-// File @openzeppelin/contracts/token/ERC20/IERC20.sol@v4.9.3
 
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts (last updated v4.9.0) (token/ERC20/IERC20.sol)
@@ -81,12 +79,6 @@ interface IERC20 {
     function transferFrom(address from, address to, uint256 amount) external returns (bool);
 }
 
-
-// File @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol@v4.9.3
-
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts v4.4.1 (token/ERC20/extensions/IERC20Metadata.sol)
-
 pragma solidity ^0.8.0;
 
 /**
@@ -112,10 +104,7 @@ interface IERC20Metadata is IERC20 {
 }
 
 
-// File @openzeppelin/contracts/utils/Context.sol@v4.9.3
 
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts v4.4.1 (utils/Context.sol)
 
 pragma solidity ^0.8.0;
 
@@ -140,10 +129,7 @@ abstract contract Context {
 }
 
 
-// File @openzeppelin/contracts/token/ERC20/ERC20.sol@v4.9.3
 
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.9.0) (token/ERC20/ERC20.sol)
 
 pragma solidity ^0.8.0;
 
@@ -507,10 +493,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 }
 
 
-// File @openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol@v4.9.3
 
-// SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.5.0) (token/ERC20/extensions/ERC20Burnable.sol)
 
 pragma solidity ^0.8.0;
 
@@ -548,10 +531,6 @@ abstract contract ERC20Burnable is Context, ERC20 {
 }
 
 
-// File contracts/mock/MVDBXToken.sol
-
-// contracts/VOWToken.sol
-// SPDX-License-Identifier: None
 pragma solidity ^0.8.19;
 contract MVDBXToken is ERC20Burnable {
     constructor() ERC20("MVDBX", "MVDBX") {
@@ -560,10 +539,7 @@ contract MVDBXToken is ERC20Burnable {
 }
 
 
-// File contracts/interface/IUniswapV2Pair.sol
 
-// contracts/IUniswapV2Pair.sol
-// SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
 interface IUniswapV2Pair {
@@ -571,10 +547,7 @@ interface IUniswapV2Pair {
 }
 
 
-// File contracts/interface/IUniswapV2Router02.sol
 
-// contracts/IUniswapV2Router02.sol
-// SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
 interface IUniswapV2Router02 {
@@ -592,10 +565,6 @@ interface IUniswapV2Router02 {
 }
 
 
-// File contracts/MVDBXLiquidity.sol
-
-// contracts/MVDBXLiquidity.sol
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 contract MVDBXLiquidity is Context {
 
@@ -705,10 +674,7 @@ contract MVDBXLiquidity is Context {
 }
 
 
-// File contracts/mock/UniswapV2Pair.sol
 
-// contracts/UniswapV2Pair.sol
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
 contract UniswapV2Pair {
@@ -728,10 +694,6 @@ contract UniswapV2Pair {
 }
 
 
-// File contracts/mock/UniswapV2Router02.sol
-
-// contracts/UniswapV2Router02.sol
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
 contract UniswapV2Router02 {
